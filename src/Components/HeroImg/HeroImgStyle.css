@@ -40,32 +40,6 @@
 .hero .content h1 {
     font-size: 4rem;
     padding: 0.6rem 0 1.5rem;
-    animation-name: title;
-    animation-duration: 3s;
-}
-
-@keyframes title {
-    0% {
-        transform: rotatey(155deg);
-        left: 0px;
-        top: 0px;
-    }
-    25% {
-        color: rgba(255, 221, 0, 0.957);
-        left: 200px;
-        top: 0px;
-    }
-
-    50% {
-        color: rgba(255, 221, 0, 0.957);
-        left: 200px;
-        top: 0px;
-    }
-
-    100% {
-        left: 0px;
-        top: 0px;
-    }
 }
 
 .content .btn {
