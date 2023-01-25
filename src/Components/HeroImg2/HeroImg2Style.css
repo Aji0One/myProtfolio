@@ -30,6 +30,7 @@
 .hero-img h1 {
     font-size: 2.4rem;
     position: relative;
+    text-shadow: 2.4px 2.4px 4.4px rgb(152, 143, 132);
 }
 
 .hero-img p {
