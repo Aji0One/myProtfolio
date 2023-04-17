@@ -1,8 +1,5 @@
-
-
-import React from 'react'
+import React from "react";
 import { NavLink } from "react-router-dom";
-
 
 const WorkCard = (props) => {
   return (
@@ -13,12 +10,19 @@ const WorkCard = (props) => {
         <p>{props.text}</p>
 
         <div className="pro-btns">
-          <a target="_blank" href={props.view} className="btn">View</a>
-          <a target="_self" href={props.src} className="btn">Source</a>
+          <a target="_blank" href={props.view} className="btn">
+            View
+          </a>
+          <a target="_self" href={props.frosrc} className="btn">
+            FrontEnd
+          </a>
+          <a target="_self" href={props.src} className="btn">
+            Backend
+          </a>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default WorkCard;

@@ -1,0 +1,35 @@
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 90vh;
+  width: 80%;
+  margin: auto;
+}
+
+.skillbox {
+  width: 36%;
+  height: fit-content;
+  background-color: white;
+  color: "#343434";
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0.45rem;
+  align-items: center;
+  margin: 1rem;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 700px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-left: 15%;
+    min-width: "20vh";
+    width: "20%";
+  }
+}

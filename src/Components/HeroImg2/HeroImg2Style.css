@@ -30,34 +30,7 @@
 .hero-img h1 {
     font-size: 2.4rem;
     position: relative;
-    animation-name: head;
-    animation-duration: 3s;
-}
-
-@keyframes head {
-    0% {
-       
-        left:0px;
-        right:0px;
-        transform: rotatey(-155deg);
-    }
-    
-    50% {
-        color:rgba(255, 174, 0, 0.961);
-        left: 200px;
-        top:0px;
-    }
-   
-    75% {
-        
-        left: -200px;
-        top:0px;
-        transform: rotatey(155deg);
-    }
-    100% {
-        left: 0px;
-        top: 0px;
-    }
+    text-shadow: 2.4px 2.4px 4.4px rgb(152, 143, 132);
 }
 
 .hero-img p {
