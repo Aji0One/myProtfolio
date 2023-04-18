@@ -1,69 +1,63 @@
 .mask {
-    width: 100%;
-    height: 100vh;
-    position: relative;
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
 
 .Intro-Img {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
 }
 
 .mask::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #000;
-    opacity: 0.8;
-
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.8;
 }
 
 .hero {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .hero .content {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
 }
 
 .hero .content h1 {
-    font-size: 4rem;
-    padding: 0.6rem 0 1.5rem;
-<<<<<<< HEAD
-    animation-name: heading ;
-    animation-duration: 4s;
-   
-=======
-     animation-name: heading ;
-    animation-duration: 4s;
->>>>>>> 3e45e9d3adbb98b71b48ea9530dde3400afc5a28
+  font-size: 4rem;
+  padding: 0.6rem 0 1.5rem;
+  animation-name: heading;
+  animation-duration: 4s;
 }
 
 @keyframes heading {
-   from{color: rgba(250, 221, 129, 0.94)}
-   to{color: rgb(241, 236, 174);}
+  from {
+    color: rgba(250, 221, 129, 0.94);
+  }
+  to {
+    color: rgb(241, 236, 174);
+  }
 }
 
-
 .content .btn {
-    margin: 1rem 0.2rem;
+  margin: 1rem 0.2rem;
 }
 
 @media screen and (max-width: 640px) {
-    .hero .content h1 {
-        font-size: 3rem;
-    }
-
-
+  .hero .content h1 {
+    font-size: 3rem;
+  }
 }

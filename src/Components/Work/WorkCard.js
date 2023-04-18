@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 const WorkCard = (props) => {
   return (
@@ -16,7 +15,7 @@ const WorkCard = (props) => {
           <a target="_self" href={props.frosrc} className="btn">
             FrontEnd
           </a>
-          <a target="_self" href={props.src} className="btn">
+          <a target="_self" href={props.bsrc} className="btn">
             Backend
           </a>
         </div>
