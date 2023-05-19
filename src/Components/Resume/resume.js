@@ -14,7 +14,7 @@ const Resume = () => {
         className="btn"
         onMouseOver={handleBtn}
       >
-        {state ? "Download Resume" : "Click Here"}
+        {state ? "Download Resume" : "View and Download Resume"}
       </a>
     </div>
   );
