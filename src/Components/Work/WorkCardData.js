@@ -5,22 +5,6 @@ import Pro4 from "../../assets/project4.jpg";
 
 const WorkCardData = [
   {
-    imgsrc: Pro1,
-    title: "Stack Overflow",
-    text: "This project is an clone of stack overflow web page,Helps the users to clarify their doubt in a public platform on any sector.",
-    view: `https://zingy-raindrop-5c2dac.netlify.app/`,
-    frosrc: `https://github.com/Aji0One/stack-clone-frontend`,
-    bsrc: "https://github.com/Aji0One/stack-clone-backend",
-  },
-  {
-    imgsrc: Pro2,
-    title: "Admin Dashboard",
-    text: "This project shows the admin dasboard with nivo charts and its application with redux application.",
-    view: "https://charming-beignet-4c7de5.netlify.app",
-    frosrc: "https://github.com/Aji0One/AdminDashboard-FE.git",
-    bsrc: "https://github.com/Aji0One/AdminDashboard-BE.git",
-  },
-  {
     imgsrc: Pro3,
     title: "EComm website",
     text: "This site shows an EComm shopping website with cart application. The payment gateway is done with stripe application.",
@@ -35,6 +19,22 @@ const WorkCardData = [
     view: "https://poetic-souffle-a760f0.netlify.app",
     frosrc: "https://github.com/Aji0One/Socket-Chat-FE",
     bsrc: "https://github.com/Aji0One/Socket-Chat-BE",
+  },
+  {
+    imgsrc: Pro2,
+    title: "Admin Dashboard",
+    text: "This project shows the admin dasboard with nivo charts and its application with redux application.",
+    view: "https://charming-beignet-4c7de5.netlify.app",
+    frosrc: "https://github.com/Aji0One/AdminDashboard-FE.git",
+    bsrc: "https://github.com/Aji0One/AdminDashboard-BE.git",
+  },
+  {
+    imgsrc: Pro1,
+    title: "Stack Overflow",
+    text: "This project is an clone of stack overflow web page,Helps the users to clarify their doubt in a public platform on any sector.",
+    view: `https://zingy-raindrop-5c2dac.netlify.app/`,
+    frosrc: `https://github.com/Aji0One/stack-clone-frontend`,
+    bsrc: "https://github.com/Aji0One/stack-clone-backend",
   },
 ];
 
