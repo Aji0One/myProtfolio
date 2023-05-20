@@ -10,7 +10,7 @@ const Resume = () => {
       <a
         id="resume"
         target="_blank"
-        href="https://drive.google.com/file/d/10L2rVKPPG52foPwI7i-ATsYcVI2gEzWJ/view"
+        href="https://drive.google.com/file/d/14c2SBCHNdy_IyhCtldAoa0l897W8Pc3v/view"
         className="btn"
         onMouseOver={handleBtn}
       >
