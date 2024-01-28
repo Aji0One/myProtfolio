@@ -6,7 +6,7 @@ const WorkCard = (props) => {
       <img src={props.imgsrc} alt="project-img" />
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-details">
-        <p>{props.text}</p>
+        <p style={{height:"100px"}}>{props.text}</p>
 
         <div className="pro-btns">
           <a target="_blank" href={props.view} className="btn">

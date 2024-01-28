@@ -7,15 +7,18 @@ const Work = () => {
   return (
     <div className="work-container">
       <h1 className="project-heading">Projects</h1>
-      <div className="credential">
+      {/* <div className="credential">
         <p className="credName">Credentials</p>
         <p>
-          Email : <q>gusetuser@gmail.com</q>{" "}
+          Email : <q>test123@gmail.com</q>{" "}
         </p>
         <p>
-          Password: <q> guest123</q>
+          Password: <q> test123/test12345</q>
         </p>
-      </div>
+        <p>
+          key: <q> test123/test12345</q>
+        </p>
+      </div> */}
       <div className="project-container">
         {WorkCardData.map((ele, index) => {
           return (
